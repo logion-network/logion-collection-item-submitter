@@ -1,38 +1,55 @@
 .App {
+  text-align: left;
+  width: 80%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App h1 img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.App label {
+  display: inline-block;
+  width: 260px;
+}
+
+.App input,
+.App textarea {
+  width: 430px;
+}
+
+.App p {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.App textarea {
+  height: 200px;
+}
+
+.App .error-message {
+  color: red;
+}
+
+.App .form-row {
+  margin-bottom: 20px;
+}
+
+.App .form-row .doc {
+  margin-left: 260px;
+}
+
+.App button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App .submission-state {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: bold;
+  font-size: 16px;
 }
