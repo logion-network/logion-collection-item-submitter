@@ -2,6 +2,8 @@
 
 This sample project illustrates how to submit a new item to a logion Collection. It may also be used to perform a manual item submission.
 
+The latest build of this app is deployed [here](https://submit.logion.network/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
