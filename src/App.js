@@ -50,8 +50,12 @@ function App() {
   useEffect(() => {
     (async function() {
       const keyring = new Keyring({ type: 'sr25519' });
-      const keyPair = keyring.addFromUri(signer);
-      setSignerAddress(keyPair.address);
+      try {
+        const keyPair = keyring.addFromUri(signer);
+        setSignerAddress(keyPair.address);
+      } catch(e) {
+        setSignerAddress("");
+      }
     })();
   }, [ signer, setSignerAddress ]);
 
@@ -75,7 +79,7 @@ function App() {
           <label htmlFor="signer">Signer URI</label>
           <input
             id="signer"
-            type="text"
+            type="password"
             value={ signer }
             onChange={ e => setSigner(e.target.value) }
           />
