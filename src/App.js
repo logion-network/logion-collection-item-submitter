@@ -115,7 +115,7 @@ function App() {
             value={ itemId }
             onChange={ e => setItemId(e.target.value) }
           />
-          <p className="doc">A unique key for the item in the form "0x" followed by 32 hexadecimal digits e.g. the hex representation of a file's
+          <p className="doc">A unique key for the item in the form "0x" followed by 64 hexadecimal digits e.g. the hex representation of a file's
           SHA256 hash.</p>
         </div>
         <div className="form-row">

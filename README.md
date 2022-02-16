@@ -1,8 +1,9 @@
 # Logion Collection Item Submitter
 
-This sample project illustrates how to submit a new item to a logion Collection. It may also be used to perform a manual item submission.
+This sample project illustrates how to submit a new item to a logion Collection using the [Polkadot{.js} API](https://polkadot.js.org/docs/api/start).
+It may also be used to perform a manual item submission.
 
-The latest build of this app is deployed [here](https://submit.logion.network/).
+The latest build of this app is deployed [here](https://submit.logion.network/) and may be used for testing purpose.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
