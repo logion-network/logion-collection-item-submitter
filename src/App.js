@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
       <h1><img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo" /> Collection Item Submitter</h1>
-      <p>This simple app shows how to submit a new item to a logion collection.</p>
+      <p>This simple app shows how to submit a new item to a logion collection. The source code is available <a href="https://github.com/logion-network/logion-collection-item-submitter" target="_blank" rel="noreferrer">here</a>.</p>
       <form>
         <h2>Collection Settings</h2>
         <div className="form-row">
